@@ -39,7 +39,7 @@
 }
 ```
 
-#### Busca por País por nome
+#### Busca de País por nome
 ```http
   GET url/api/v1/paises/busca?nome=brazil
 
