@@ -75,6 +75,19 @@
 ]  
 ```
 
+#### Busca de Estado por nome
+```http
+  GET url/api/v1/estados/busca?nome=amazonas
+
+  {
+    "id": 3,
+    "nome": "Amazonas",
+    "uf": "AM",
+    "ibge": 13,
+    "totalCidades": 0
+  }
+```
+
 #### Get cidades de um Estado
 ```http
   GET url/api/v1/estados/10/cidades
@@ -91,6 +104,17 @@
     "ibge": 2101202
   }
 ]  
+```
+
+#### Busca de Cidade por nome
+```http
+  GET url/api/v1/cidades/busca?nome=bacabal
+
+  {
+    "id": 8,
+    "nome": "BACABAL",
+    "ibge": 2101202
+  }
 ```
 
 #### POST novo país
