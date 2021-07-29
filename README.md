@@ -3,7 +3,7 @@
 
 #### Get todos os países
 
-#### { url = https://pais-estados-cidades.herokuapp.com}  
+#### { url = https://pais-estados-cidades.herokuapp.com/}  
 
 ```http
   GET url/api/v1/paises
