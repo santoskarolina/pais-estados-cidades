@@ -109,4 +109,8 @@
     "estado": 10
   }
 ```
+#### :small_blue_diamond: Modelo de camadas
+![DOMAIN MODEL](https://github.com/anna104016/html/blob/main/estrutura%20de%20camadas01.png)
 
+#### :small_blue_diamond: UML
+![UML](https://github.com/santoskarolina/html/blob/main/html/pais-estado-cidade.png)
