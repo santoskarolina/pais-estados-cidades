@@ -30,8 +30,8 @@ public class Pais  implements Serializable {
 
     public Pais(Long id, String nome, String nomePt, String sigla, Integer bacen) {
         this.id = id;
-        this.nome = nome;
-        this.nomePt = nomePt;
+        this.nome = nome.toUpperCase();
+        this.nomePt = nomePt.toUpperCase();
         this.sigla = sigla;
         this.bacen = bacen;
     }

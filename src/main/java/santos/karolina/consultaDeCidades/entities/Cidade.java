@@ -26,13 +26,9 @@ public class Cidade implements Serializable {
 
     public Cidade(Long id, String nome, Integer ibge, Estado estado) {
         this.id = id;
-        this.nome = nome;
+        this.nome = nome.toUpperCase();
         this.ibge = ibge;
         this.estado = estado;
-    }
-
-    public static long getSerialVersionUID() {
-        return serialVersionUID;
     }
 
     public Long getId() {

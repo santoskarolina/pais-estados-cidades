@@ -35,7 +35,7 @@ public class Estado implements Serializable {
 
     public Estado(Long id, String nome, String uf, Integer ibge, Pais pais) {
         this.id = id;
-        this.nome = nome;
+        this.nome = nome.toUpperCase();
         this.uf = uf;
         this.ibge = ibge;
         this.pais = pais;
