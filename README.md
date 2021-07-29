@@ -39,6 +39,20 @@
 }
 ```
 
+#### Busca por País por nome
+```http
+  GET url/api/v1/paises/busca?nome=brazil
+
+{
+  "id": 1,
+  "nome": "Brazil",
+  "nomePt": "Brasil",
+  "sigla": "BR",
+  "bacen": 1058,
+  "totalEstados": 27
+}
+```
+
 #### Get estados de um país
 ```http
   GET url/api/v1/paises/1/estados
