@@ -25,8 +25,8 @@ public class PaisService {
         return pais.orElseThrow(()-> new RuntimeException("pais não encontrado"));
     }
 
-    public Pais findByNome(String nome){
-        Optional<Pais> pais = paisRepository.findByNomeIgnoreCase(nome);
+    public Pais findByNome(String nomePt){
+        Optional<Pais> pais = paisRepository.findByNomePtIgnoreCase(nomePt);
         return pais.orElseThrow(() -> new NotFoundException("Pais não encontrado"));
     }
 

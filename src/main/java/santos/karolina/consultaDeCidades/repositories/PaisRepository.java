@@ -9,5 +9,5 @@ import java.util.Optional;
 public interface PaisRepository extends JpaRepository<Pais, Long> {
 
     @Transactional(readOnly = true)
-    Optional<Pais> findByNomeIgnoreCase(String nome);
+    Optional<Pais> findByNomePtIgnoreCase(String nomePt);
 }

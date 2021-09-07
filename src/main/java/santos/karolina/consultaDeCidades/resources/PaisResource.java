@@ -47,8 +47,8 @@ public class PaisResource {
     }
 
     @GetMapping(value = "/busca")
-    public ResponseEntity<Pais> findbyNome(@RequestParam String nome){
-        Pais pais = service.findByNome(nome);
+    public ResponseEntity<Pais> findbyNome(@RequestParam String nomePt){
+        Pais pais = service.findByNome(nomePt);
         return ResponseEntity.ok().body(pais);
     }
 
