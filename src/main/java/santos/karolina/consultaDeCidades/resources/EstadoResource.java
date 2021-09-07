@@ -38,7 +38,7 @@ public class EstadoResource {
         return ResponseEntity.ok().body(cidades);
     }
 
-    @GetMapping
+    @GetMapping(value = "/{id}")
     public ResponseEntity<Estado> findById(@PathVariable Long id){
         Estado estado = estadoService.findById(id);
         return ResponseEntity.ok().body(estado);
