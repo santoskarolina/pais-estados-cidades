@@ -41,7 +41,7 @@
 
 #### Busca de País por nome
 ```http
-  GET url/api/v1/paises/busca?nome=brazil
+  GET url/api/v1/paises/busca?nomePt=brazil
 
 {
   "id": 1,
