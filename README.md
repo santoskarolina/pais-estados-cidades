@@ -148,7 +148,7 @@
   }
 ```
 #### :small_blue_diamond: Modelo de camadas
-![DOMAIN MODEL](https://github.com/anna104016/html/blob/main/estrutura%20de%20camadas01.png)
+![DOMAIN MODEL](https://github.com/santoskarolina/html/blob/main/uml/estrutura-de-camadas.png)
 
 #### :small_blue_diamond: UML
-![UML](https://github.com/santoskarolina/html/blob/main/html/pais-estado-cidade.png)
+![UML](https://github.com/santoskarolina/html/blob/main/uml/pais-estado-cidade.png)
